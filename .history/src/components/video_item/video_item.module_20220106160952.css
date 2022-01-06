@@ -1,0 +1,38 @@
+.container {
+  list-style-type: none;
+  width: 50%;
+  padding: 2px;
+}
+
+.video {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 4px 6px 2px #00000073;
+  transition: all 300ms;
+  margin: 10px;
+}
+.video:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  width: 40%;
+  height: 100%;
+}
+
+.metadata {
+  margin-left: 0.2em;
+}
+
+.title,
+.channel {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.channel {
+  font-size: 0.6rem;
+}

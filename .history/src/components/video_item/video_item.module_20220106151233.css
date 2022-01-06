@@ -1,0 +1,9 @@
+.item {
+  background-color: white;
+}
+
+li {
+  list-style-type: none;
+  width: 45%;
+  padding: 2px;
+}

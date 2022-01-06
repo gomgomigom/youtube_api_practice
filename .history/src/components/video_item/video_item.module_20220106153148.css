@@ -1,0 +1,20 @@
+.item {
+  background-color: white;
+  list-style-type: none;
+  width: 48%;
+  height: 50px;
+  padding: 2px;
+  margin: 5px;
+  display: flex;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.45);
+  transition: all 300ms;
+}
+
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.span {
+  font-size: 20px;
+}

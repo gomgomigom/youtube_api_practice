@@ -1,0 +1,21 @@
+.container {
+  list-style-type: none;
+  width: 50%;
+}
+
+.video {
+  height: 150px;
+  background-color: white;
+  display: flex;
+  box-shadow: 2px 4px 6px 2px #00000073;
+  transition: all 300ms;
+  margin: 2px;
+}
+.video:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  width: 40%;
+}

@@ -1,0 +1,6 @@
+ul {
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+}

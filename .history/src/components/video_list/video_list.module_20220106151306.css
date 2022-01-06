@@ -1,0 +1,7 @@
+ul {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2px;
+}

@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <h1 className={styles.title}>Youtube</h1>
+      <h1 className={styles.title}>Hello :</h1>
       <VideoList key={videos.id} videos={videos} />
     </>
   );
