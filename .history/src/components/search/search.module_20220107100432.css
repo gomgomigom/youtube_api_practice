@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.logo {
+  padding: 0 1em;
+}
+
+.search_input {
+  margin: 40px;
+  font-size: 2em;
+}

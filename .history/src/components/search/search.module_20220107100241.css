@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+}
+
+.title {
+  color: #ffffff;
+  padding: 0.2em;
+}
+
+.logo {
+  padding: 0.5em 0.5em;
+}
