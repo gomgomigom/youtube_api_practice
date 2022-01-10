@@ -9,12 +9,8 @@ function App({ youtube }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const selectVideo = (video) => setSelectedVideo(video);
   const search = (value) => {
+    youtube.search(value).then((item) => setVideos(item));
     setSelectedVideo(null);
-    youtube
-      .search(value) //
-      .then((item) => {
-        setVideos(item);
-      });
   };
   const logoClick = () => {
     setSelectedVideo(null);
