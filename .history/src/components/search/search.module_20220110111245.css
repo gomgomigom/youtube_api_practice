@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.logo {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.search_input {
+  margin: 0 0 0 40px;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.search_button {
+  height: 2rem;
+}
+
+.search_img {
+  height: 100%;
+}
+
+.logo_container {
+  display: flex;
+}

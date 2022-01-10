@@ -1,0 +1,12 @@
+.title,
+.description {
+  color: white;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.video_detail {
+  padding: 0.2em;
+}

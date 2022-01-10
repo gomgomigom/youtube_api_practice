@@ -1,0 +1,8 @@
+.title,
+.description {
+  color: white;
+}
+
+.description {
+  white-space: pre-wrap;
+}
