@@ -1,5 +1,5 @@
 import styles from './app.module.css';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import VideoList from './components/video_list/video_list';
 import Search from './components/search/search';
 import VideoDetail from './components/video_detail/video_detail';
@@ -8,20 +8,17 @@ function App({ youtube }) {
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const selectVideo = (video) => setSelectedVideo(video);
-  const search = useCallback(
-    (value) => {
-      setSelectedVideo(null);
-      youtube
-        .search(value) //
-        .then((item) => {
-          setVideos(item);
-        });
-    },
-    [youtube]
-  );
-  const logoClick = useCallback(() => {
+  const search = (value) => {
     setSelectedVideo(null);
-  }, [youtube]);
+    youtube
+      .search(value) //
+      .then((item) => {
+        setVideos(item);
+      });
+  };
+  const logoClick = () => {
+    setSelectedVideo(null);
+  };
 
   useEffect(() => {
     console.log('useEffect');

@@ -19,9 +19,9 @@ function App({ youtube }) {
     },
     [youtube]
   );
-  const logoClick = useCallback(() => {
+  const logoClick = () => {
     setSelectedVideo(null);
-  }, [youtube]);
+  };
 
   useEffect(() => {
     console.log('useEffect');

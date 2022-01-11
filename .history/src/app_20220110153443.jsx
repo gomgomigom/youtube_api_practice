@@ -8,20 +8,17 @@ function App({ youtube }) {
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const selectVideo = (video) => setSelectedVideo(video);
-  const search = useCallback(
-    (value) => {
-      setSelectedVideo(null);
-      youtube
-        .search(value) //
-        .then((item) => {
-          setVideos(item);
-        });
-    },
-    [youtube]
-  );
-  const logoClick = useCallback(() => {
+  const search = useCallback((value) => {
     setSelectedVideo(null);
-  }, [youtube]);
+    youtube
+      .search(value) //
+      .then((item) => {
+        setVideos(item);
+      });
+  });
+  const logoClick = () => {
+    setSelectedVideo(null);
+  };
 
   useEffect(() => {
     console.log('useEffect');

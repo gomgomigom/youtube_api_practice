@@ -13,6 +13,5 @@
 }
 
 .video {
-  position: sticky;
-  top: 0;
+  sticky: 0;
 }
